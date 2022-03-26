@@ -1,11 +1,10 @@
-﻿namespace Shared.Enums
+﻿namespace Shared.Enums;
+
+public enum EventType
 {
-    public enum EventType
-    {
-        Unknown,
-        Conference,
-        MultiDayConference,
-        Concert,
-        SportsGame
-    }
+	Unknown,
+	Conference,
+	MultiDayConference,
+	Concert,
+	SportsGame
 }

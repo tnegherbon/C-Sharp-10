@@ -1,9 +1,8 @@
-﻿namespace Shared.Enums
+﻿namespace Shared.Enums;
+
+public enum CostType
 {
-    public enum CostType
-    {
-        Cheap,
-        Moderate,
-        Expensive
-    }
+	Cheap,
+	Moderate,
+	Expensive
 }
